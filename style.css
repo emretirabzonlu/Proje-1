@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif 
+}
+
+.genel{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.altsinif{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.altsinif ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px ;
+}
+.altsinif ul li a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.altsinif ul li a:hover{
+    color: #7e2561;
+    transition: 1s;
+    box-shadow: 0 2px rgb(122, 21, 21);
+}
+
+.yazi{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.yazi h1{
+    font-size: 65px;
+}
+.yazi p {
+    margin: 20px auto;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #400D51;
+    font-size: 17px;
+}
+button:hover{
+    color:black;
+    transition: 1s;
+
+}
